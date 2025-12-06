@@ -10,7 +10,7 @@ COPY requirements.txt .
 RUN uv pip install --system --no-cache --extra-index-url https://download.pytorch.org/whl/cpu -r requirements.txt
 
 # Copy application code
-COPY backend/ .
+COPY . .
 
 # Expose port
 EXPOSE 8000

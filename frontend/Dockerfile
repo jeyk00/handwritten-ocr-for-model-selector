@@ -17,7 +17,7 @@ COPY requirements.txt .
 RUN uv pip install --system --no-cache -r requirements.txt
 
 # Copy application code
-COPY frontend/ .
+COPY . .
 
 # Expose port
 EXPOSE 8501

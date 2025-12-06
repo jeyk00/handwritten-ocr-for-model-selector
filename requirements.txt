@@ -1,14 +1,2 @@
-# Backend
-fastapi==0.109.0
-uvicorn==0.27.0
-torch==2.1.2
-numpy==1.26.3
-huggingface_hub==0.20.3
-pydantic==2.5.3
-python-dotenv==1.0.0
-
-# Frontend
-streamlit==1.30.0
-streamlit-drawable-canvas==0.9.3
-requests==2.31.0
-opencv-python-headless==4.9.0.80
+-r backend/requirements.txt
+-r frontend/requirements.txt
