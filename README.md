@@ -34,5 +34,3 @@ docker-compose up --build
 ```
 Access the frontend at `http://localhost:8501`.
 
-## Documentation
-See [.agent/rules](.agent/rules) for project standards and guidelines.
