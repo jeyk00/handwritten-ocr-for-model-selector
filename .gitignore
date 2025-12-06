@@ -1,0 +1,21 @@
+# Python virtual environment
+venv/
+.venv/
+__pycache__/
+
+# PyCharm
+.idea/
+
+# Project settings
+.env
+
+# VS Code
+.vscode/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+legacy-repo/
+
+.agent/
